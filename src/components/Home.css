@@ -1,0 +1,46 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home__l {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.home__xl {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.home__xxl {
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.home__xxl sup {
+    font-size: 20px;
+}
+
+.home__cta {
+    background: pink;
+    padding: 15px 30px;
+    display: inline-block;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #ffacba;
+    transition: background-color 0.2s ease;
+}
+
+.home__cta:hover {
+    background-color: #ffacba;
+}
