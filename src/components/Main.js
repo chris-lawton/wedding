@@ -5,6 +5,7 @@ import Wedding from './Wedding';
 import GettingThere from './GettingThere';
 import Rsvp from './Rsvp';
 import WhereToStay from './WhereToStay';
+import Faqs from './Faqs';
 
 import './Main.css';
 
@@ -16,6 +17,7 @@ const Main = () => (
         <Route path='/getting-there' component={GettingThere} />
         <Route path='/where-to-stay' component={WhereToStay} />
         <Route path='/rsvp' component={Rsvp} />
+        <Route path='/faqs' component={Faqs} />
     </Switch>
   </main>
 )

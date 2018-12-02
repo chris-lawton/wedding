@@ -1,0 +1,28 @@
+.hotels {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+}
+
+@media  screen and (min-width: 600px) {
+    .hotels {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media  screen and (min-width: 900px) {
+    .hotels {
+        margin-top: 25px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.hotels > div {
+    background-color: rgba(5, 98, 47, 0.13);
+    border: 2px solid #4f887b;
+    padding: 15px;
+}
+
+.hotels a {
+    font-weight: bold;
+}

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Satisfy|Lato:300,400');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Lato:300,400');
 
 
 body {
@@ -14,7 +14,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Satisfy', cursive;
+  font-family: 'Playfair Display', cursive;
   margin: 0 0 1rem;
 }
 
@@ -24,4 +24,14 @@ h1 {
 
 p {
   margin: 0 0 1rem;
+}
+
+a {
+  color: #4f887b;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #2292a7;
 }
