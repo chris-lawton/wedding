@@ -1,36 +1,60 @@
-import React from 'react';
+import React, { Component } from 'react'
 
 import './Rsvp.css';
 
-const Rsvp = () => (
-  <div>
-    <h1>RSVP</h1>
-    <p>Esse anim enim pariatur dolor nulla aliquip ad proident nulla. Deserunt eu reprehenderit laboris Lorem cillum. Incididunt dolore Lorem enim ut in ad exercitation ipsum ullamco minim. Dolore amet duis reprehenderit elit minim elit aute. Ut magna minim occaecat labore. Cillum amet quis laborum labore magna laboris occaecat reprehenderit ex.</p>
-    <form action="https://formcarry.com/s/4ddLKxoC_MJ" method="POST" acceptCharset="UTF-8" >
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="text" name="number" placeholder="Phone Number" />
+class Rsvp extends Component {
+  constructor(){
+    super();
 
-      <input type="radio" id="can-make-it" name="attending" value="can-make-it" />
-      <label htmlFor="can-make-it">
-        I/We can make it - woop! <span role="img" aria-label="smiling">😀</span>
-      </label>
+    this.state = {
+      isComing: false
+    }
 
-      <input type="radio" id="some-can-make-it" name="attending" value="some-can-make-it" />
-      <label htmlFor="some-can-make-it">
-        Some of us can make it <span role="img" aria-label="thinking">🤔</span>
-      </label>
+    this.handleChange = this.handleChange.bind(this);
+  }
 
-      <input type="radio" id="none-can-make-it" name="attending" value="none-can-make-it" />
-      <label htmlFor="none-can-make-it">
-        I/We can't make it <span role="img" aria-label="crying">😭</span>
-      </label>
+  handleChange() {
+    console.log('called');
+    this.setState({isComing: !this.state.isComing})
+  }
 
-      <textarea placeholder="Dietry requirements?"></textarea>
+  render() {
+    const buttonText = this.state.isComing ? "We're coming!" : "Send";
 
-      <input type="hidden" name="_gotcha" />
-      <input type="submit" />
-    </form>
-  </div>
-)
+    return (
+      <div>
+        <h1>RSVP</h1>
+        <p>Please let us know if you can make our wedding! We'd love to see you there.</p>
+        <form action="https://formcarry.com/s/4ddLKxoC_MJ" method="POST" acceptCharset="UTF-8" >
+          <div className="radios">
+            <div className="radio">
+              <input type="radio" id="can-make-it" name="attending" value="can-make-it" onChange={this.handleChange} />
+              <label htmlFor="can-make-it">
+                Yes, let's celebrate!
+              </label>
+            </div>
+
+            <div className="radio">
+              <input type="radio" id="none-can-make-it" name="attending" value="none-can-make-it" onChange={this.handleChange} />
+              <label htmlFor="none-can-make-it">
+                No, but we'll raise a glass for you
+              </label>
+            </div>
+          </div>
+
+          <input type="text" name="name" placeholder="Your Name*" required />
+          <textarea placeholder="Guest Names*" required></textarea>
+
+          <input type="email" name="email" placeholder="Email*" required />
+          <input type="tel" name="number" placeholder="Phone Number*" required />
+          <textarea placeholder="Anything else we should know?"></textarea>
+
+          <input type="hidden" name="_gotcha" />
+          <input type="submit" value={buttonText} />
+        </form>
+      </div>
+    )
+  }
+}
 
 export default Rsvp;
