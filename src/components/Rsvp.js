@@ -9,13 +9,6 @@ class Rsvp extends Component {
     this.state = {
       isComing: false
     }
-
-    this.handleChange = this.handleChange.bind(this);
-  }
-
-  handleChange() {
-    console.log('called');
-    this.setState({isComing: !this.state.isComing})
   }
 
   render() {
@@ -28,26 +21,26 @@ class Rsvp extends Component {
         <form action="https://formcarry.com/s/4ddLKxoC_MJ" method="POST" acceptCharset="UTF-8" >
           <div className="radios">
             <div className="radio">
-              <input type="radio" id="can-make-it" name="attending" value="can-make-it" onChange={this.handleChange} />
+              <input type="radio" id="can-make-it" name="attending" value="can-make-it" onChange={() => this.setState({isComing: true})} />
               <label htmlFor="can-make-it">
                 Yes, let's celebrate!
               </label>
             </div>
 
             <div className="radio">
-              <input type="radio" id="none-can-make-it" name="attending" value="none-can-make-it" onChange={this.handleChange} />
-              <label htmlFor="none-can-make-it">
+              <input type="radio" id="not-able-to-make-it" name="attending" value="not-able-to-make-it" onChange={() => this.setState({isComing: false})} />
+              <label htmlFor="not-able-to-make-it">
                 No, but we'll raise a glass for you
               </label>
             </div>
           </div>
 
           <input type="text" name="name" placeholder="Your Name*" required />
-          <textarea placeholder="Guest Names*" required></textarea>
+          <textarea name="guest names" placeholder="Guest Names*" required></textarea>
 
           <input type="email" name="email" placeholder="Email*" required />
           <input type="tel" name="number" placeholder="Phone Number*" required />
-          <textarea placeholder="Anything else we should know?"></textarea>
+          <textarea name="anything else" placeholder="Anything else we should know?"></textarea>
 
           <input type="hidden" name="_gotcha" />
           <input type="submit" value={buttonText} />
