@@ -7,6 +7,13 @@
   right: -20px;
   width: 350px;
   z-index: 1;
+  display: none;
+}
+
+@media  screen and (min-width: 600px) {
+  .leaves--top {
+    display: block;
+  }
 }
 
 .leaves--bottom {

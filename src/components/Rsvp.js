@@ -17,7 +17,7 @@ class Rsvp extends Component {
     return (
       <div>
         <h1>RSVP</h1>
-        <p>Please let us know if you can make our wedding! We'd love to see you there.</p>
+        <p>Please let us know if you can make our wedding! We'd love to see you there 🙌.</p>
         <form action="https://formcarry.com/s/4ddLKxoC_MJ" method="POST" acceptCharset="UTF-8" >
           <div className="radios">
             <div className="radio">
