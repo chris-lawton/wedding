@@ -9,15 +9,11 @@ const GettingThere = () => (
     Llandinam,<br />
     Powys,<br />
     SY17 5DQ<br />
-      <a target="_blank" rel="noopener noreferrer" href="https://www.google.co.uk/maps/place/Plas+Dinam,+Llandinam+SY17+5DQ/data=!4m2!3m1!1s0x486ff01ac3d3790b:0xda495020d179a279?ved=2ahUKEwiOgra-qJDfAhVyunEKHYyFAr0Q8gEwAHoECAAQAQ">
+      <a target="_blank" rel="noopener noreferrer" href="https://www.google.co.uk/maps/place/Plas+Dinam+Country+House/@52.4934203,-3.4338609,17z/data=!4m5!3m4!1s0x486ff01ac3d3790b:0xa3e0a27af8c0f852!8m2!3d52.4936414!4d-3.4323317">
         Google Maps
         <img src={LinkIcon} alt={LinkIcon} />
       </a>
     </p>
-
-    <h2>By Car</h2>
-    <p>The address above should be enough for a SatNav to locate.</p>
-    <p>On arrival, please drive up the driveay and park <b>X</b>. There is enough parking on site for <b>X</b> cars.</p>
 
     <h2>By Taxi</h2>
     <p>Local taxi numbers:</p>

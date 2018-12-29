@@ -7,11 +7,6 @@ const WhereToStay = () => (
     <h1>Where to stay</h1>
     <div className="hotels">
       <div>
-        <h3>Dinam View B&amp;B, Llandinam</h3>
-        <p><a target="_blank" rel="noopener noreferrer" href="https://www.airbnb.co.uk/rooms/24765299">AirBnB</a></p>
-      </div>
-
-      <div>
         <h3>Brook House B&amp;B, Llandinam</h3>
         <p><a href="tel:07816322025">07816 322 025</a></p>
         <p><a href="tel:01686689813">01686689813</a></p>
@@ -67,19 +62,13 @@ const WhereToStay = () => (
 
       <div>
         <h3>Luxury Lodges Wales, Trefeglwys</h3>
-        <p><a target="_blank" rel="noopener noreferrer" href="https://www.luxury-lodges-wales.com">Website</a></p>
+        <p><a target="_blank" rel="noopener noreferrer" href="http://www.luxury-lodges-wales.com">Website</a></p>
       </div>
 
       <div>
         <h3>Old Chapel Farm</h3>
         <p>Llanidloes, SY18 6JR. Yurts and a bunk barn.</p>
         <a target="_blank" rel="noopener noreferrer" href="http://thewildernesstrust.org/old-chapel-farm/yurt-holidays/">Website</a>
-      </div>
-
-      <div>
-        <h3>AirBnB Barn, Llawryglyn</h3>
-        <p>4 guests</p>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.airbnb.co.uk/rooms/1129567">AirBnB</a>
       </div>
 
       <div>

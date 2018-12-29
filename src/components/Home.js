@@ -10,6 +10,7 @@ const Home = () => (
     <p className="home__s">at</p>
     <p className="home__l">Plas Dinam Country House<br />Llandinam, Powys</p>
     <NavLink className="home__cta" to="/rsvp">RSVP</NavLink>
+    <p>Please RSVP by the <b>1<sup>st</sup> May 2019</b>.</p>
   </div>
 )
 

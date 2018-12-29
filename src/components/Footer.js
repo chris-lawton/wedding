@@ -4,6 +4,7 @@ import "./Footer.css";
 
 export default () => (
     <footer>
-        <a href="mailto:chrislawton57@gmail.com">Questions?</a>
+        <p>Questions for us?</p>
+        <p>Email us at <a href="mailto:helsandchris31@gmail.com">helsandchris31@gmail.com</a></p>
     </footer>
 )

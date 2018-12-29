@@ -1,5 +1,5 @@
 form {
-    max-width: 600px;
+    max-width: 640px;
 }
 
 form input,
@@ -36,7 +36,7 @@ form input[type="submit"]:hover {
 
 form input[type="radio"] {
     width: auto;
-    margin-right: 10px;
+    margin: 0 10px 0 0;
 }
 
 form .radios {
@@ -55,4 +55,6 @@ form .radios {
 form .radio {
     display: flex;
     align-items: center;
+    padding: 12px;
+    border: 2px solid #333;
 }
