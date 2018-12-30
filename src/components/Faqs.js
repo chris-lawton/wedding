@@ -21,6 +21,8 @@ export default () => (
             <p>Per the guest limit at our venue, we will we not be able to allow any plus ones.</p>
             <li>Can I take pictures and/or post photos of your wedding on social media?</li>
             <p>Of course! #helsandchris</p>
+            <li>What time should I arrive for the evening reception?</li>
+            <p>Please arrive at 7:30pm for drinks and dancing!</p>
         </ul>
 
         <p>Still got a question? <a href="mailto:helsandchris31@gmail.com">Email us!</a></p>
