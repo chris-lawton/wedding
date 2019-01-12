@@ -40,7 +40,7 @@ class Rsvp extends Component {
           <textarea name="guest names" placeholder="Name/s*" required></textarea>
 
           <input type="email" name="email" placeholder="Email*" required />
-          <input type="tel" name="number" placeholder="Phone Number*" required />
+          <input type="tel" name="number" placeholder="Phone Number*" minLength="11" required />
 
           <textarea name="anything else" placeholder="Please let us know if you or a guest is vegetarian, vegan or has any allergies e.g. Chris has a nut allergy"></textarea>
 
