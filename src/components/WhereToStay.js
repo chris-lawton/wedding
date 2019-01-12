@@ -5,6 +5,7 @@ import "./WhereToStay.css";
 const WhereToStay = () => (
   <div>
     <h1>Where to stay</h1>
+    <p>Below is a list of accommodation that has been sent to us, however please feel free to look online for other AirBnb's/B&amp;B's.</p>
     <div className="hotels">
       <div>
         <h3>Brook House B&amp;B, Llandinam</h3>
