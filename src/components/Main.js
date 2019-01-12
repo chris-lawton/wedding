@@ -6,6 +6,7 @@ import GettingThere from './GettingThere';
 import Rsvp from './Rsvp';
 import WhereToStay from './WhereToStay';
 import Faqs from './Faqs';
+import ThankYou from './ThankYou';
 
 import './Main.css';
 
@@ -18,6 +19,7 @@ const Main = () => (
         <Route path='/where-to-stay' component={WhereToStay} />
         <Route path='/rsvp' component={Rsvp} />
         <Route path='/faqs' component={Faqs} />
+        <Route path='/thank-you' component={ThankYou} />
     </Switch>
   </main>
 )

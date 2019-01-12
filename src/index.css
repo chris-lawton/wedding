@@ -26,6 +26,10 @@ p {
   margin: 0 0 1rem;
 }
 
+p.centered {
+  text-align: center;
+}
+
 p.standout {
   font-size: 20px;
   width: fit-content;
@@ -75,4 +79,12 @@ a:hover {
 
 .list p {
   padding-left: 15px;
+}
+
+.thank-you {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 60vh;
 }
