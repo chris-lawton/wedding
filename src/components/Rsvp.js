@@ -36,7 +36,9 @@ class Rsvp extends Component {
             </div>
           </div>
 
-          <p>From the people on your invite, who is able to attend?</p>
+          {this.state.isComing &&
+            <p>From the people on your invite, who is able to attend?</p>
+          }
           <textarea name="guest names" placeholder="Name/s*" required></textarea>
 
           <input type="email" name="email" placeholder="Email*" required />
