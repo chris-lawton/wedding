@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom';
+import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 
 import "./Header.css";
 
@@ -19,12 +20,22 @@ class Header extends Component {
     this.setState({
       navOpen: !this.state.navOpen
     })
+
+    this.handleScrollLock();
   }
 
   closeNav(){
-    this.setState({
-      navOpen: false
-    })
+    if(window.innerWidth < 600) {
+      this.setState({
+        navOpen: false
+      })
+
+      this.handleScrollLock();
+    }
+  }
+
+  handleScrollLock() {
+    this.state.navOpen ? enableBodyScroll() : disableBodyScroll();
   }
 
   render() {

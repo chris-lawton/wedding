@@ -25,6 +25,8 @@
     transition: all 0.2s ease;
     z-index: 5;
     top: 50px;
+    background-color: white;
+    height: 100vh
 }
 
 .nav-open .header__nav {
@@ -33,10 +35,12 @@
 
 @media  screen and (min-width: 600px) {
     .header__nav {
+        height: auto;
         position: relative;
         transform: translateX(0);
         flex-direction: row;
         top: 0;
+        background-color: transparent;
     }
 }
 
@@ -65,10 +69,18 @@
     text-decoration: none;
     padding: 10px;
     background-color: white;
+    text-align: center;
+    border-bottom: 1px solid #efeded;
+}
+
+.header__link:last-child {
+    border-bottom: 0;
 }
 
 @media  screen and (min-width: 600px) {
     .header__link {
+        border-bottom: 0;
+        text-align: left;
         margin-right: 10px;
     }
 }
