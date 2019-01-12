@@ -16,6 +16,10 @@ class Header extends Component {
     this.closeNav = this.closeNav.bind(this);
   }
 
+  componentDidMount() {
+    this.targetElement = document.querySelector('.header');
+  }
+
   handleClick() {
     this.setState({
       navOpen: !this.state.navOpen
@@ -35,7 +39,7 @@ class Header extends Component {
   }
 
   handleScrollLock() {
-    this.state.navOpen ? enableBodyScroll() : disableBodyScroll();
+    this.state.navOpen ? enableBodyScroll(this.targetElement) : disableBodyScroll(this.targetElement);
   }
 
   render() {
