@@ -6,11 +6,11 @@ const Wedding = () => (
     <h1>The Wedding</h1>
     <h2>Ceremony &amp; Reception</h2>
     <p>The ceremony will start at <b>2pm</b>.</p>
-    <p>The ceremony and reception will be taking place at <b>Plas Dinam</b>. The ceremony will take place outside, if the weather permits - fingers crossed! The reception site is a 60 second walk, from the ceremony location.</p>
+    <p>The ceremony and reception will take place at <b>Plas Dinam</b>. The ceremony will be outside if the weather permits - fingers crossed! The reception site is a 60 second walk from the ceremony location.</p>
 
     <h2>Attire</h2>
     <p>The wedding is relaxed, so just think smart-casual. Tropical vibes encouraged! 🌴</p>
-    <p>Wear shoes you are comfortable walking on a pebble/stoney floor with.</p>
+    <p>Wear shoes you are comfortable walking on a pebble/stoney/grass floor with.</p>
 
     <h2>Bar</h2>
     <p>There will be some drinks available, but what type of bar is still to be decided - watch this space!</p>

@@ -16,13 +16,13 @@ export default () => (
             <li>What is the dress code for your wedding?</li>
             <p>The wedding is relaxed, so just think smart-casual. Tropical vibes encouraged!</p>
             <li>Can I bring my children?</li>
-            <p>Per the guest limit at our venue, we will we not be able to have children attend.</p>
+            <p>Per the guest limit at our venue, we will not be able to have children attend apart from our closest friends and family.</p>
             <li>Can I bring a plus one?</li>
-            <p>Per the guest limit at our venue, we will we not be able to allow any plus ones.</p>
+            <p>Per the guest limit at our venue, we will not be able to invite any plus ones.</p>
             <li>Can I take pictures and/or post photos of your wedding on social media?</li>
             <p>Of course! <b>#helsandchris</b></p>
             <li>What time should I arrive for the evening reception?</li>
-            <p>Please arrive at <b>7:30pm</b> for drinks and dancing!</p>
+            <p>Please arrive at <b>7:30pm</b> for drinks, dancing and food later on in the evening!</p>
         </ul>
 
         <p>Still got a question? <a href="mailto:helsandchris31@gmail.com">Email us!</a></p>
