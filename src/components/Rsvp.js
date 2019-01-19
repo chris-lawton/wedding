@@ -37,14 +37,18 @@ class Rsvp extends Component {
           </div>
 
           {this.state.isComing &&
-            <p>From the people on your invite, who is able to attend?</p>
+            <p>From the guests on your invite, who is able to attend?</p>
           }
           <textarea name="guest names" placeholder="Name/s*" required></textarea>
 
-          <input type="email" name="email" placeholder="Email*" required />
-          <input type="tel" name="number" placeholder="Phone Number*" minLength="11" required />
+          {this.state.isComing &&
+            <>
+              <input type="email" name="email" placeholder="Email*" required />
+              <input type="tel" name="number" placeholder="Phone Number*" minLength="11" required />
 
-          <textarea name="anything else" placeholder="Please let us know if you or a guest is vegetarian, vegan or has any allergies e.g. Chris has a nut allergy"></textarea>
+              <textarea name="anything else" placeholder="Please let us know if you or a guest is vegetarian, vegan or has any allergies e.g. Chris has a nut allergy"></textarea>
+            </>
+          }
 
           <input type="hidden" name="_gotcha" />
           <input type="submit" value={buttonText} />
