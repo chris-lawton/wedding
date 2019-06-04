@@ -17,7 +17,7 @@ class Rsvp extends Component {
     return (
       <div>
         <h1>RSVP</h1>
-        <p>Please let us know if you can make our wedding by the <b>1<sup>st</sup> May 2019</b>.</p>
+        <p>Please let us know if you can make our wedding by the <b>10<sup>th</sup> July 2019</b>.</p>
         <p>We'd love to see you there! 🙌.</p>
         <form action="https://formcarry.com/s/4ddLKxoC_MJ" method="POST" acceptCharset="UTF-8" >
           <div className="radios">

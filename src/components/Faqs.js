@@ -10,7 +10,7 @@ export default () => (
             <li>What time should I arrive?</li>
             <p>The ceremony will start at <b>2pm</b>, so anytime before then would be ace.</p>
             <li>When are the RSVPs due?</li>
-            <p>We’d love to know if you can make it (we hope you can!). Please RSVP by the <b>1<sup>st</sup> May 2019</b> using the form <NavLink to="/rsvp">here</NavLink>.</p>
+            <p>We’d love to know if you can make it (we hope you can!). Please RSVP by the <b>10<sup>th</sup> July 2019</b> using the form <NavLink to="/rsvp">here</NavLink>.</p>
             <li>Should I eat before I arrive?</li>
             <p>After the ceremony at 2pm there will be canapés and drinks followed by the wedding breakfast at <b>5pm</b>. We'd recommend having a light lunch prior to your arrival.</p>
             <li>What is the dress code for your wedding?</li>
