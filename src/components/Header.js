@@ -54,6 +54,7 @@ class Header extends Component {
           <NavLink className="header__link" to="/the-wedding"><div onClick={this.closeNav}>The Wedding</div></NavLink>
           <NavLink className="header__link" to="/getting-there"><div onClick={this.closeNav}>Getting There</div></NavLink>
           <NavLink className="header__link" to="/where-to-stay"><div onClick={this.closeNav}>Where To Stay</div></NavLink>
+          <NavLink className="header__link" to="/nearby"><div onClick={this.closeNav}>Nearby</div></NavLink>
           <NavLink className="header__link" to="/rsvp"><div onClick={this.closeNav}>RSVP</div></NavLink>
           <NavLink className="header__link" to="/faqs"><div onClick={this.closeNav}>FAQs</div></NavLink>
         </nav>
