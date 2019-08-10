@@ -18,11 +18,10 @@ const GettingThere = () => (
     <h2>By Taxi</h2>
     <p>Local taxi numbers:</p>
     <ul>
-      <li>My Taxi: <a href="tel:01686688045">01686 688 045</a></li>
       <li>Kimz Taxi: <a href="tel:07764754449">07764 754 449</a></li>
-      <li>Lyn’s Taxi: <a href="tel:07855215319">07855 215 319</a></li>
       <li>Ross Cabs: <a href="tel:07776375342">07776 375 342</a></li>
       <li>Kev’s Cabs: <a href="tel:07449928000">07449 928 000</a></li>
+      <li>My Taxi: <a href="tel:01686688045">01686 688 045</a></li>
     </ul>
 
     <h2>By Train</h2>

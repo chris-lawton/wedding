@@ -13,7 +13,10 @@ const Wedding = () => (
     <p>Wear shoes you are comfortable walking on a pebble/stoney/grass floor with.</p>
 
     <h2>Bar</h2>
-    <p>There will be some drinks available, but what type of bar is still to be decided - watch this space!</p>
+    <p>Drinks will be provided so you'll only need to bring cash for your taxi home!</p>
+
+    <h2>Parking</h2>
+    <p>If you're staying nearby we'd recommend getting a taxi to the venue as there is limited parking - see the local taxi numbers on our <NavLink to="/getting-there">getting there page</NavLink>. However if you need to drive there will be people to guide you to a parking space when you arrive.</p>
 
     <h2>Gifts</h2>
     <p>We are so happy that you’ll be able to join us for our wedding. As many of you know, we live in a house in Bristol and it is already filled with all the things we could ever need to make it a home.</p>
